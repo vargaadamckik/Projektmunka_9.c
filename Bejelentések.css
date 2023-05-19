@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#bejintro {
+    font-weight: 400;
+}
+
+.bejelentes {
+    border: solid black 0.2px;
+    background-color: cornflowerblue;
+}
+
+.bejelszov {
+    text-align: center;
+    font-style: italic;
+}
+
+.bejnev {
+    border: solid black 0.2px;  
+    font-weight: bold;
+    background-color:cadetblue;
+    transition: 0.1s;
+}
+
+.bejnev:hover {
+    cursor:context-menu;
+    color: gray;
+    font-size: 104%;
+    transition: 0.1s;
+}
+
+.rate {
+    padding-top: 2px;
+    border-top: solid black 0.1px;;
+}
+
+div {
+    margin-bottom: 30px;
+}
