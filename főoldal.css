@@ -1,4 +1,23 @@
 body {
     background-color: bisque;
-    
+    padding : 20px;
+    margin: auto;
+    background-image:url(062.JPG);
+
 }
+
+.masodikmargo {
+    padding-left: 80px;
+    margin: 0px;
+    margin-top: 5px;
+    background-color: bisque;
+    border: 2px black solid;
+}
+
+.paragrafush1 {
+    border-left: 2px black solid ;
+    border-right: 2px black solid;
+    background-color: bisque;
+    margin: 0px;
+} 
+

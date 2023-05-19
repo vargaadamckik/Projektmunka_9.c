@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    padding : 20px;
+    margin: auto;
+}
+
+.card text-center {
+    background-color: black;: !important;
+}
