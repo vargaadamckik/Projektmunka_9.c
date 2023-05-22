@@ -3,11 +3,20 @@ body {
     padding : 20px;
     margin: auto;
     background-image:url(062.JPG);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
 
+#Orvosirendelo {
+    float: right;
+    overflow: auto;
+    max-width: 600px;
+    max-height: 700px;
+    margin-top: 10px;
 }
 
 .masodikmargo {
-    padding-left: 80px;
+    padding-left: 25px;
     margin: 0px;
     margin-top: 5px;
     background-color: bisque;
@@ -19,5 +28,44 @@ body {
     border-right: 2px black solid;
     background-color: bisque;
     margin: 0px;
-} 
+    padding-left: 10px;
+    padding-bottom: 15px;
+    position: static;
+}
 
+section {
+    overflow: auto;
+}
+
+.Labacskacim {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    margin-top: 10px;
+    padding-left: 25px;
+    border-bottom: 4px black solid;
+}
+
+.Labacska {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    border-left: 4px black solid ;
+    border-right: 4px black solid;
+    border-top: 4px black solid ;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.Labacska5 {
+    padding-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline dashed #007bff;
+}
+
+a:link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
