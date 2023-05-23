@@ -7,12 +7,34 @@ body {
     background-size: 100%;
 }
 
+#Buszkesegeink {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    margin-top: 10px;
+    border-bottom: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 4px black solid;
+    border-top: 4px black solid;
+    padding-bottom: 75px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#Buszk {
+    border-bottom: 4px black solid;
+}
+
+#navbar {
+    margin-top: 10px;
+}
+
 #Orvosirendelo {
     float: right;
     overflow: auto;
     max-width: 600px;
     max-height: 700px;
     margin-top: 10px;
+    width: 100rem;
 }
 
 .masodikmargo {
@@ -51,21 +73,23 @@ section {
     border-left: 4px black solid ;
     border-right: 4px black solid;
     border-top: 4px black solid ;
+    border-bottom: 4px black solid;
     margin-top: 10px;
     margin-left: 12px;
     margin-right: 12px;
+    padding-bottom: 6px;
 }
 
-.Labacska5 {
+.Labacska3 {
     padding-bottom: 10px;
 }
 
-a:hover {
-    text-decoration: underline dashed #007bff;
+.Labcska1 {
+    text-decoration: underline #007bff; 
 }
 
 a:link {
     font-weight: bold;
     color: #007bff;
-    text-decoration: none;
+    text-decoration: underline;
 }
