@@ -6,3 +6,44 @@ body {
     background-repeat: repeat-y;
     background-size: 100%;
 }
+
+#headeri {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    margin-top: 10px;
+    border-bottom: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 4px black solid;
+    border-top: 4px black solid;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#sectioni {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    margin-top: 10px;
+    border-bottom: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 4px black solid;
+    border-top: 4px black solid;
+    padding-bottom: 75px;
+    margin-left: 450px;
+    margin-right: 50px;
+    padding-left: 22px;
+}
+
+#sectioni2 {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border-bottom: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 4px black solid;
+    border-top: 4px black solid;
+    padding-bottom: 75px;
+    margin-left: 12px;
+    margin-right: 1430px;
+    padding-left: 22px;
+    padding-right: 150px;
+}
