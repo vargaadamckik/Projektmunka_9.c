@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+.elso {
+   
+}
+.extra {
+    
+    display: none;
+}
+p:hover .extra {
+    display: inline-block;
+}
