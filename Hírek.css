@@ -3,14 +3,13 @@ h1 {
     text-align: justify;
     font-weight: bolder;
 }
-.extra {
-    
+.extra {    
     display: none;
 }
-.extra:hover {
+p:hover .extra {
     display: inline-block;
-   
- 
+
+    
 }
 .alcimek{
   display: inline-block;
