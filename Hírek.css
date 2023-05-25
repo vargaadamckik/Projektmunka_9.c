@@ -1,14 +1,27 @@
 h1 {
-    text-align: center;
-}
-.elso {
-   
+    text-align: right;
+    text-align: justify;
+    font-weight: bolder;
 }
 .extra {
     
     display: none;
 }
-p:hover .extra {
-   
+.extra:hover {
     display: inline-block;
+   
+ 
+}
+.alcimek{
+  display: inline-block;
+    text-align: left;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: large;
+    
+    
+     
+    
+
+
 }
