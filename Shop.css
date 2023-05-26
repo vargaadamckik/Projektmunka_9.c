@@ -19,7 +19,7 @@ body {
     margin-right: 12px;
 }
 
-#sectioni {
+#polok {
     background-color: rgb(103, 19, 19);
     color: white;
     margin-top: 10px;
@@ -41,9 +41,21 @@ body {
     border-right: 4px black solid;
     border-left: 4px black solid;
     border-top: 4px black solid;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
     margin-left: 12px;
     margin-right: 1430px;
     padding-left: 22px;
     padding-right: 150px;
+    width: 400px;
+    position: fixed;
+    bottom: 400px;
+    font-weight: bold;
+}
+
+#sectioni2 li {
+    text-decoration: underline;
+}
+
+#termekeink {
+    text-align: center;
 }

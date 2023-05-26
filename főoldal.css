@@ -28,6 +28,10 @@ body {
     margin-top: 10px;
 }
 
+#official {
+    opacity: 80%;
+}
+
 #Orvosirendelo {
     float: right;
     overflow: auto;
@@ -35,6 +39,7 @@ body {
     max-height: 700px;
     margin-top: 10px;
     width: 100rem;
+    z-index: 2;
 }
 
 .masodikmargo {
@@ -53,6 +58,8 @@ body {
     padding-left: 10px;
     padding-bottom: 15px;
     position: static;
+    z-index: 1;
+    font-weight: bold;
 }
 
 section {
