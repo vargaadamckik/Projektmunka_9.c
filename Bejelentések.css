@@ -1,3 +1,10 @@
+body {
+    background-image:url(062.JPG);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    transition: 0.3s
+}
+
 header {
     text-align: center;
     font-weight: bold;
@@ -5,12 +12,21 @@ header {
 }
 
 #bejintro {
-    font-weight: 400;
+    font-weight: 666;
+    text-align: center;
 }
 
 .bejelentes {
     border: solid black 0.2px;
-    background-color: cornflowerblue;
+    background-color: brown;
+    margin: 80px;
+    transition: 0.3s;
+}
+
+.bejelentes:hover {
+    font-size: larger;
+    transition: 0.3s;
+    cursor:context-menu;
 }
 
 .bejelszov {
@@ -18,25 +34,57 @@ header {
     font-style: italic;
 }
 
-.bejnev {
-    border: solid black 0.2px;  
+.bejnev {  
     font-weight: bold;
-    background-color:cadetblue;
-    transition: 0.1s;
+    display: inline;
+}
+
+.bejnevszin {
+    background-color:rgba(205, 36, 36, 0.644);
+    display: inline-block;
+    border: solid black 0.2px;
+    display: block;
 }
 
 .bejnev:hover {
+    display: inline-block;
     cursor:context-menu;
     color: gray;
     font-size: 104%;
-    transition: 0.1s;
 }
 
 .rate {
     padding-top: 2px;
-    border-top: solid black 0.1px;;
+    border-top: solid black 0.1px;
 }
 
 div {
     margin-bottom: 30px;
+}
+
+#Navbarbej {
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+img {
+    position: sticky;
+    width: 100px;
+    top: 0.2px;
+    right: 20px;
+    left: 10000px;
+    float: right;
+    transition: 0.2s;
+}
+
+img:hover {
+    cursor:pointer;
+    width: 16%;
+    transition: 0.2s;
+}
+
+#ott {
+    color: black;
+    background-color: white;    
 }

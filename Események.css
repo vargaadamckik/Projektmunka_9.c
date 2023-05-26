@@ -1,0 +1,40 @@
+body {
+    background-image:url(062.JPG);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    transition: 0.3s
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Navbares {
+    background: none;
+    border: none;
+    text-align: center;
+
+}
+
+#fest {
+    transition: 0.2s;
+}
+
+#fest:hover {
+    color: white;
+    cursor: pointer;
+    font-size: 220%;
+    transition: 0.2s;
+}
+
+#ott {
+    color: black;
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
