@@ -42,6 +42,10 @@ body {
     z-index: 2;
 }
 
+#kesztyus {
+    border-left: 2px solid black;
+}
+
 .masodikmargo {
     padding-left: 25px;
     margin: 0px;
@@ -91,8 +95,9 @@ section {
     padding-bottom: 10px;
 }
 
-.Labcska1 {
+.Labacska1 {
     text-decoration: underline #007bff; 
+    display: inline-block;
 }
 
 a:link {
