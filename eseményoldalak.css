@@ -14,12 +14,15 @@ header {
 #homebutton {
     float: right;
     position: sticky;
+    top: 0.2px;
     width: 10vw;
+    opacity: 30%;
     transition: 0.3s;
 }
 
 #homebutton:hover {
-    width: 12vw;
+    width: 10.2vw;
+    opacity: 100%;
     transition: 0.3s;
 }
 
@@ -30,6 +33,15 @@ table {
 h1 {
     text-align: center;
     font-weight: bolder;
+    font-size: larger;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+
 }
 
 #park {
@@ -37,8 +49,182 @@ h1 {
     float: inline-start;
     width: 100%;
     height: 20%;
+    padding: 40px;
+    display: none;
 }
 
-table {
-    margin-right: 100px !important;
+
+#hirszoveg {
+    text-align: center;
 }
+
+#th {
+    text-decoration: underline;
+}
+
+#table {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    zoom:100%;
+}
+
+#tablez {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    zoom:200%;
+}
+
+#poszterb {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    transition: 0.1s;
+}
+
+#poszterb:hover {
+    font-size: 2.2vw;
+    transition: 0.1s;
+    text-decoration: underline;
+}
+
+
+.kuhi1 {
+    border: black solid 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#kuhi2 {
+    width: 20%;  
+    display: block;
+    transition: 0.2s;
+    margin:auto;
+}
+
+#kuhi2:hover {
+    width: 22%;
+    transition: 0.2s;
+}
+
+p {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.textbox {
+    background-color: beige;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: black solid 6px;
+}
+
+#nyilfel {
+    right: 10px;
+    width: 10vw;
+    bottom: 10px;
+    position: fixed;
+    opacity: 30%;
+    transition: 0.1s;
+}
+
+#nyilfel:hover {
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+#koncertpic {
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto ;
+}
+
+@media screen and (max-width: 1400px) {
+    #table {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        width: 90%;
+    }
+
+    #tablez {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #poszterb {
+        font-size: 4vw;
+        transition: 0.1s;
+    }
+
+    #poszterb:hover {
+        font-size: 4.2vw;
+        transition: 0.1s;
+        text-decoration: underline;
+    }
+
+    .kuhi1 {
+        float:left;
+        width: 80%;
+        margin-left:10%
+    }
+
+    #kuhi2 {
+        width: 40%;  
+        display: block;
+        transition: 0.2s;
+        margin:auto;
+}
+
+    #kuhi2:hover {
+        width: 46%;
+        transition: 0.2s;
+}
+
+    .textbox {
+        background-color: beige;
+        margin-left: 60px;
+        margin-right: 60Px;
+        border: black solid 6px;
+    }
+    #nyilfel {
+        right: 0px;
+        width: 10vw;
+        bottom: 10px;
+        position: fixed;
+        opacity: 30%;
+        transition: 0.1s;
+    }
+    
+    #nyilfel:hover {
+        opacity: 100%;
+        transition: 0.1s;
+    }
+}
+
+
+@media screen and (max-width: 0px) {
+    #poszterb {
+        font-size: 2vw;
+        color:red;
+    }
+    
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+
+    
