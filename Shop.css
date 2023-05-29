@@ -2,9 +2,11 @@ body {
     background-color: bisque;
     padding: 20px;
     margin: auto;
-    background-image:url(062.JPG);
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-image:url(kepek/062.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
 }
 
 #headeri {
@@ -88,6 +90,47 @@ nav a:hover {
     padding-left: 22px;
 }
 
+nav {
+    margin-top: 10px;
+    width: 20vw;
+    position: fixed;
+    left: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+    list-style: none;
+    overflow: auto;
+    border: 2px solid;
+}
+
+#Termekeink1 {
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+    list-style: none;
+    border: 2px solid;
+}
+
+nav ul a {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #500d0d;
+    text-decoration: underline;
+    color: white;
+}
+
 #Parnak {
     background-color: rgb(103, 19, 19);
     color: white;
@@ -146,31 +189,4 @@ nav a:hover {
 
 #termekeink {
     text-align: center;
-}
-
-@media screen and (max-width: 1600px) {
-    nav {
-        width: 20w;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    nav a {
-        padding: 20px 0px;
-        font-size: 80%;
-    }
-
-    img {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 565px) {
-    nav a {
-        font-size: 60%;
-    }
-
-    nav {
-        width: 5w;
-    }
 }
