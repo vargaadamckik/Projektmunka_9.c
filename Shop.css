@@ -35,6 +35,17 @@ body {
     padding-left: 22px;
 }
 
+#polokep {
+    float: left;
+    width: 400px;
+    padding-right: 30px;
+}
+
+#pololista {
+    font-weight: bold;
+    font-size: 25px;
+}
+
 #Bogrek {
     background-color: rgb(103, 19, 19);
     color: white;
