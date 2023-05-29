@@ -2,7 +2,7 @@ body {
     background-color: bisque;
     padding : 20px;
     margin: auto;
-    background-image:url(062.JPG);
+    background-image:url(kepek/062.JPG);
     background-repeat: repeat-y;
     background-size: 100%;
 }
@@ -18,6 +18,10 @@ body {
     padding-bottom: 75px;
     margin-left: 12px;
     margin-right: 12px;
+}
+
+footer ul li {
+    display: inline-block;
 }
 
 #Buszk {
@@ -64,6 +68,7 @@ body {
     position: static;
     z-index: 1;
     font-weight: bold;
+    font-size: 25px;
 }
 
 section {
@@ -97,7 +102,6 @@ section {
 
 .Labacska1 {
     text-decoration: underline #007bff; 
-    display: inline-block;
 }
 
 a:link {
