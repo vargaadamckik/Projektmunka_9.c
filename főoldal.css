@@ -2,9 +2,11 @@ body {
     background-color: bisque;
     padding : 20px;
     margin: auto;
-    background-image:url(062.JPG);
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-image:url(kepek/062.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
 }
 
 #Buszkesegeink {
@@ -64,6 +66,7 @@ body {
     position: static;
     z-index: 1;
     font-weight: bold;
+    font-size: 25px;
 }
 
 section {
@@ -91,12 +94,13 @@ section {
     padding-bottom: 6px;
 }
 
-.Labacska3 {
-    padding-bottom: 10px;
-}
-
 .Labacska1 {
     text-decoration: underline #007bff; 
+    display: inline;
+    line-height: 80px;
+}
+
+footer ul li {
     display: inline-block;
 }
 
