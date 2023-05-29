@@ -33,6 +33,47 @@ body {
     padding-left: 22px;
 }
 
+nav {
+    margin-top: 10px;
+    width: 20vw;
+    position: fixed;
+    left: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkred;
+    list-style: none;
+    overflow: auto;
+    border: 2px solid;
+}
+
+#Termekeink1 {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkred;
+    list-style: none;
+    border: 2px solid;
+}
+
+nav a {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #500d0d;
+    text-decoration: underline;
+}
+
+
+
 #Bogrek {
     background-color: rgb(103, 19, 19);
     color: white;
@@ -48,6 +89,20 @@ body {
 }
 
 #Parnak {
+    background-color: rgb(103, 19, 19);
+    color: white;
+    margin-top: 10px;
+    border-bottom: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 4px black solid;
+    border-top: 4px black solid;
+    padding-bottom: 75px;
+    margin-left: 450px;
+    margin-right: 50px;
+    padding-left: 22px;
+}
+
+#Csemoiszobor {
     background-color: rgb(103, 19, 19);
     color: white;
     margin-top: 10px;
@@ -93,8 +148,29 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 2000px) {
-    .card {
-        width: ;
+@media screen and (max-width: 1600px) {
+    nav {
+        width: 20w;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    nav a {
+        padding: 20px 0px;
+        font-size: 80%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    nav a {
+        font-size: 60%;
+    }
+
+    nav {
+        width: 5w;
     }
 }
