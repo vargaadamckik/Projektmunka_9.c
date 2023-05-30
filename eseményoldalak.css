@@ -208,63 +208,192 @@ a {
 }
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 844px) {   
+
+    body {
+        background-image:url(kepek/062.JPG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        background-attachment: fixed;
+        transition: 0.3s;
+    }
+    
+    
+    #flowerfestb {
+        background-image:url(kepek/flowerfest1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        background-attachment: fixed;
+        transition: 0.3s;
+    }
+    
+    #kuhib {
+        background-image:url(kepek/Kuhionstagebg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        background-attachment: fixed;
+        transition: 0.3s; 
+    }
+    
+    #koncertb {
+        background-image:url(kepek/nykoncert.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        background-attachment: fixed;
+        transition: 0.3s;
+    }
+    header {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #homebutton {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 10vw;
+        opacity: 30%;
+        transition: 0.3s;   
+        
+    }
+    
+    #homebutton:hover {
+        width: 10.2vw;
+        opacity: 100%;
+        transition: 0.3s;
+    }
+    
+    h1 {
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    h2 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-top: 3
+        0px;
+    }
+    
+    #park {
+        text-align: center;
+        float: inline-start;
+        width: 100%;
+        height: 20%;
+        padding: 40px;
+        display: none;
+    }
+    
+    .reklamkep {
+        border: black solid 4px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    
+    #hirszoveg {
+        text-align: center;
+        background-color: bisque;
+        margin-left: 300px;
+        margin-right: 300px;
+        border: black solid 2px;
+        opacity: 80%;
+    }
+    
+    #hirszovegp {
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 0;
+    }
+    
+    #hirszovegh {
+        font-size: xx-large;
+    }
+    
+    
+    #th {
+        text-decoration: underline;
+    }
+    
     #table {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        width: 90%;
-    }
-
-    #tablez {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 50px;
-        width: 10%;
+        zoom:100%;
     }
-
+    
+    #tablez {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        zoom:200%;
+    }
+    
     #poszterb {
-        font-size: 4vw;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2vw;
         transition: 0.1s;
     }
-
+    
     #poszterb:hover {
-        font-size: 4.2vw;
+        font-size: 2.2vw;
         transition: 0.1s;
         text-decoration: underline;
     }
-
+    
     .kuhi1 {
-        float:left;
-        width: 80%;
-        margin-left:10%
+        border: black solid 4px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
-
+    
     #kuhi2 {
-        width: 40%;  
+        width: 20%;  
         display: block;
         transition: 0.2s;
         margin:auto;
-}
-
+    }
+    
     #kuhi2:hover {
-        width: 46%;
+        width: 22%;
         transition: 0.2s;
-}
-
+    }
+    
+    p {
+        font-weight: normal;
+        font-size: larger;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    
+    #konyvad {
+        font-style: italic;
+        font-weight: bold;
+    }
+    
     .textbox {
         background-color: beige;
-        margin-left: 60px;
-        margin-right: 60Px;
+        margin-left: 300px;
+        margin-right: 300px;
         border: black solid 6px;
     }
-
-    #hirszoveg {
-        background-color: beige;
-        margin-left: 60px;
-        margin-right: 60Px;
-        border: black solid 6px;
-    }
-
+    
     #nyilfel {
-        right: 0px;
+        right: 10px;
         width: 10vw;
         bottom: 10px;
         position: fixed;
@@ -276,6 +405,19 @@ a {
         opacity: 100%;
         transition: 0.1s;
     }
+    
+    #koncertpic {
+        width: 80%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom: 120px;
+    }
+    
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
 }
 
 
