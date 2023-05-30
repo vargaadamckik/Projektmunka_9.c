@@ -32,7 +32,7 @@ body {
     padding-bottom: 75px;
     margin-left: 450px;
     margin-right: 50px;
-    padding-left: 22px;
+    padding-left: 21px;
 }
 
 #polokep {
@@ -200,4 +200,168 @@ nav a:hover {
 
 #termekeink {
     text-align: center;
+}
+
+@media screen and (min-width: 300px) {
+    nav {
+        margin-top: 10px;
+        width: 20vw;
+        position: none;
+        left: 30px;
+    }
+
+    #polok {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 100px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Bogrek {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 100px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Parnak {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 100px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Termekeink1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        margin-top: 10px;
+        width: 20vw;
+        position: none;
+        left: 30px;
+    }
+
+    #polok {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 200px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Bogrek {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 200px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Parnak {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 200px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Termekeink1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #polok {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 400px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Bogrek {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 400px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Parnak {
+        background-color: rgb(103, 19, 19);
+        color: white;
+        margin-top: 10px;
+        border-bottom: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 4px black solid;
+        border-top: 4px black solid;
+        padding-bottom: 75px;
+        margin-left: 400px;
+        margin-right: 50px;
+        padding-left: 22px;
+    }
+
+    #Termekeink1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
 }
