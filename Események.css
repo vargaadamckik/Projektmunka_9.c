@@ -7,6 +7,21 @@ body {
     transition: 0.3s
 }
 
+#homebutton {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 10vw;
+    opacity: 30%;
+    transition: 0.3s;     
+}
+
+#homebutton:hover {
+    width: 10.2vw;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
 header {
     text-align: center;
     font-weight: bold;
