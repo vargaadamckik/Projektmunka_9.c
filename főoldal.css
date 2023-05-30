@@ -3,8 +3,10 @@ body {
     padding : 20px;
     margin: auto;
     background-image:url(kepek/062.JPG);
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
 }
 
 #Buszkesegeink {
@@ -100,12 +102,62 @@ section {
     padding-bottom: 10px;
 }
 
-.Labacska1 {
-    text-decoration: underline #007bff; 
-}
-
 a:link {
     font-weight: bold;
     color: #007bff;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 300px) {
+    .Labacska1 {
+        width: 150px;
+    }
+
+    #Orvosirendelo {
+        width: 80%;
+        margin-right: 28px;
+    }
+
+    .buszkimg {
+        width: 20%;
+    }
+
+    #kesztyus {
+        border-left: 0px;
+    }
+
+    .buszkszoveg {
+        font-size: 60%;
+    }
+
+    .paragrafush1 {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .Labacska1 {
+        padding-left: 60px;
+        width: 200px;
+    }
+
+    #Orvosirendelo {
+        width: 100%;
+    }
+
+    .buszkimg {
+        width: 10em;
+    }
+
+    .buszkszoveg {
+
+    }
+
+    #kesztyus {
+        border-left: 2px black solid;
+    }
+
+    .paragrafush1 {
+        font-size: 25px;
+    }
 }
