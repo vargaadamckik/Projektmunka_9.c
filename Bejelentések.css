@@ -13,6 +13,22 @@ header {
     font-size: 40px;
 }
 
+#homebutton {
+    float: right;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 10vw;
+    opacity: 30%;
+    transition: 0.3s;     
+}
+
+#homebutton:hover {
+    width: 10.2vw;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
 #bejintro {
     font-weight: 666;
     text-align: center;
@@ -22,7 +38,7 @@ header {
 .bejelentes {
     zoom: 1.2;
     border: solid black 0.2px;
-    background-color: brown;
+    background-color: beige;
     margin-top: 40px !important;
     margin: 80px;
     transition: 0.3s;
@@ -45,7 +61,7 @@ header {
 }
 
 .bejnevszin {
-    background-color:rgba(205, 36, 36, 0.644);
+    background-color:rgba(244, 228, 110, 0.297);
     display: inline-block;
     border: solid black 0.2px;
     display: block;

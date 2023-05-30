@@ -1,3 +1,4 @@
+
 body {
     background-image:url(kepek/062.JPG);
     background-repeat: no-repeat;
@@ -7,19 +8,46 @@ body {
     transition: 0.3s;
 }
 
+
+#flowerfestb {
+    background-image:url(kepek/flowerfest1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    transition: 0.3s;
+}
+
+#kuhib {
+    background-image:url(kepek/Kuhionstagebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    transition: 0.3s; 
+}
+
+#koncertb {
+    background-image:url(kepek/nykoncert.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    transition: 0.3s;
+}
 header {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
 }
 
 #homebutton {
-    float: right;
-    position: sticky;
+    position: fixed;
     top: 0px;
+    right: 0px;
     width: 10vw;
     opacity: 30%;
-    transition: 0.3s;
+    transition: 0.3s;   
+    
 }
 
 #homebutton:hover {
@@ -31,14 +59,15 @@ header {
 h1 {
     text-align: center;
     font-weight: bolder;
-    font-size: larger;
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     font-size: 40px;
     text-transform: uppercase;
+    margin-top: 3
+    0px;
 }
 
 #park {
@@ -50,6 +79,13 @@ h2 {
     display: none;
 }
 
+.reklamkep {
+    border: black solid 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
 #hirszoveg {
     text-align: center;
@@ -128,9 +164,14 @@ h2 {
 p {
     font-weight: normal;
     font-size: larger;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
     font-size: 30px;
+}
+
+#konyvad {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .textbox {
@@ -158,6 +199,7 @@ p {
     width: 80%;
     margin-right:auto;
     margin-left:auto;
+    margin-bottom: 120px;
 }
 
 a {
@@ -213,6 +255,14 @@ a {
         margin-right: 60Px;
         border: black solid 6px;
     }
+
+    #hirszoveg {
+        background-color: beige;
+        margin-left: 60px;
+        margin-right: 60Px;
+        border: black solid 6px;
+    }
+
     #nyilfel {
         right: 0px;
         width: 10vw;
