@@ -202,6 +202,21 @@ nav a:hover {
     text-align: center;
 }
 
+#homebutton {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 10vw;
+    opacity: 30%;
+    transition: 0.3s;     
+}
+
+#homebutton:hover {
+    width: 10.2vw;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
 @media screen and (min-width: 300px) {
     nav {
         margin-top: 10px;

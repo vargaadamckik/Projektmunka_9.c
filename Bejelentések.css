@@ -14,7 +14,6 @@ header {
 }
 
 #homebutton {
-    float: right;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -91,22 +90,6 @@ div {
 
 .btn {
     width: 120px;
-}
-
-img {
-    position: sticky;
-    width: 100px;
-    top: 0.2px;
-    right: 20px;
-    left: 10000px;
-    float: right;
-    transition: 0.2s;
-}
-
-img:hover {
-    cursor:pointer;
-    width: 16%;
-    transition: 0.2s;
 }
 
 #ott {
