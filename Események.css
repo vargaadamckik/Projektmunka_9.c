@@ -91,6 +91,11 @@ h5 {
     font-size: larger;
 }
 
+header {
+    background-color: brown;
+    border: black solid 2px;
+}
+
 @media screen and (max-width:1000px) {
     
     header {
