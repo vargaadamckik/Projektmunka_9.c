@@ -36,6 +36,7 @@ h1 {
 
 .oszlop img:hover{
     filter: grayscale(70%);
+    z-index: 1;
 }
 
 .megjelenes {
@@ -77,6 +78,7 @@ h1 {
     width: 10vw;
     opacity: 30%;
     transition: 0.3s;     
+    z-index: 2;
 }
 
 #homebutton:hover {
