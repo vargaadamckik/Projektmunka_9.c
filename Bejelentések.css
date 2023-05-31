@@ -60,12 +60,12 @@ header {
     background-color: beige;
     margin-top: 40px !important;
     margin: 80px;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .bejelentes:hover {
     font-size: larger;
-    transition: 0.3s;
+    transition: 0.2s;
     cursor:context-menu;
 }
 
