@@ -29,18 +29,19 @@ h1 {
     float: left;
 }
 
+
+
 .oszlop img:hover{
     filter: grayscale(70%);
 }
-
 .megjelenes {
     flex: 1 1 45%;
 }
 
+
 .megjelenes p{
     opacity: 0;
 }
-
 .megjelenes:hover p{
  opacity: 1;
 }
@@ -53,6 +54,8 @@ h1 {
     position: fixed;
     top: 200px;
  }
+
+
 
 .p {
     padding-top: 10px;
@@ -73,11 +76,9 @@ h1 {
    opacity: 100%;
     transition: 0.3s;
 }
-
 img {
     border: 12px solid wheat;
 }
-
 @media screen and (max-width:844px)  {
     .megjelenes {
         flex: 1 1 100%;
