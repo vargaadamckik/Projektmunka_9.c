@@ -6,22 +6,31 @@ body{
     background-size: cover; 
     background-attachment: fixed;   
 }
+.tartalom {
+    max-width: 1320px;
+}
 h1 {
     text-align:justify;
     text-align: center;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px;
 }
 h2 {
     text-align:justify;
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     font-size: 30px;
      color:black;
 background-color: beige;
-display: inline-block;
+display: block;
+margin:30px auto;
+width: fit-content;
 
 }
 .extra {    
@@ -29,25 +38,27 @@ display: inline-block;
     color: black;
     display: none;
     text-align: left;
-    color: black;
     font-size: 18px;
     padding-left: 15px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    margin: auto;
+    padding: 20px;
     
     
 }
 p:hover .extra {
-    display: inline-block;
-
-    
+    display: block; 
+    width: 50%;
+}
+.hirek p {
+    height: 100%;
 }
 .alcimek{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    text-align: left;
-    text-align: justify;
+    text-align: center;
     font-weight: bolder;
     font-size: large;
     padding-bottom: 5px;
@@ -55,11 +66,10 @@ p:hover .extra {
     text-decoration: underline;
     background-color: beige;
     color: black;
-   
-    
-   
     font-size: 18px;
     padding-left: 15px;
+    margin-bottom: 20px;
+   
 
 }
 .alcimek:hover {
@@ -79,4 +89,42 @@ p:hover .extra {
     width: 10.2vw;
     opacity: 100%;
     transition: 0.3s;
+}
+.footer1{
+    display: block;
+    position: relative;
+    padding: 5px;
+    text-align: right;
+}
+.footer2 {
+   
+    background-color: beige;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: left;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: large;
+   
+    text-decoration: underline;
+   
+    color: black;
+    font-size: 18px;
+    
+
+}
+
+
+@media screen and (max-width: 767px){
+    .extra {
+        max-width: 70%;
+    }
 }
