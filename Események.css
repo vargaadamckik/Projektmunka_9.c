@@ -13,7 +13,8 @@ body {
     right: 0px;
     width: 10vw;
     opacity: 30%;
-    transition: 0.3s;    
+    transition: 0.3s;  
+    z-index: 2;  
 }
 
 #oldalteteje {
@@ -29,6 +30,7 @@ body {
     width: 10.2vw;
     opacity: 100%;
     transition: 0.3s;
+    z-index: 2;
 }
 
 header {
@@ -108,7 +110,12 @@ header {
     }
 
     #homebutton {
-       width: 160px; 
+        width: 180px;
+        opacity: 30%;
+        position: fixed;
+        top: 0px;
+        float: right;
+        transition: 0.2s;
     }
 
     h5 {

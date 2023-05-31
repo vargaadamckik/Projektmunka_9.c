@@ -58,6 +58,7 @@ header {
     width: 10vw;
     opacity: 30%;
     transition: 0.3s;   
+    z-index: 2;
     
 }
 
@@ -65,6 +66,7 @@ header {
     width: 10.2vw;
     opacity: 100%;
     transition: 0.3s;
+    z-index: 2;
 }
 
 h1 {
@@ -131,7 +133,7 @@ h2 {
     text-decoration: underline;
 }
 
-#table {
+.tables {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -160,7 +162,7 @@ h2 {
     text-decoration: underline;
 }
 
-.kuhi1 {
+#kuhi1 {
     border: black solid 4px;
     display: block;
     margin-left: auto;
@@ -229,13 +231,17 @@ a {
 
 @media screen and (max-width: 1000px) {   
 
+
+
     .textbox {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    #tablez {
-        width: 20;
+    .table {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: auto;
     }
 
     #hirszoveg {
@@ -245,15 +251,37 @@ a {
 
     #homebutton {
         width: 80px;
+        opacity: 30%;
         position: fixed;
         top: 0px;
         float: right;
+        transition: 0.2s;
+    }
+
+    #kuhi1 {
+        width: 220px;
+    }
+    #Kuhionstage {
+        width:220px;
+
+        height: 220px;
+    }
+
+    #homebutton:hover {
+        width: 90px;
+        opacity: 100%;
+        transition: 0.2s;
+
     }
 
     #kuhi2 {
         width: 260px;
     }
 
+    .reklamkep {
+        width: 200px;
+        height: 120px;
+    }
 }
 
 
