@@ -32,6 +32,13 @@ header {
     font-weight: 666;
     text-align: center;
     font-size: larger;
+    margin-bottom: 60px;
+    background-color: bisque;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 10px;
+    border: black solid 2px;
+    opacity: 80%;
 }
 
 .bejelentes {
@@ -99,6 +106,10 @@ div {
 
 @media screen and (max-width:844px) {
     #homebutton {
-        width: 60px;
+        width: 100px;
+    }
+
+    .bejelentes {
+        margin: 20px;
     }
 }
