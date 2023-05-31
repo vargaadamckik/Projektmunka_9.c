@@ -35,7 +35,7 @@ body {
     padding-left: 21px;
 }
 
-#polokep {
+.boltkep {
     float: left;
     width: 400px;
     padding-right: 30px;
@@ -84,8 +84,6 @@ nav a:hover {
     background-color: #500d0d;
     text-decoration: underline;
 }
-
-
 
 #Bogrek {
     background-color: rgb(103, 19, 19);
@@ -329,6 +327,12 @@ nav a:hover {
         font-weight: bold;
         font-size: 20px;
     }
+
+    .boltkep {
+        float: left;
+        width: 250px;
+        padding-right: 30px; 
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -378,5 +382,11 @@ nav a:hover {
         text-align: center;
         font-weight: bold;
         font-size: 25px;
+    }
+
+    .boltkep {
+        float: left;
+        width: 400px;
+        padding-right: 30px; 
     }
 }
