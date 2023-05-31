@@ -18,6 +18,15 @@ body {
     transition: 0.3s;
 }
 
+#oldalteteje {
+    float: right;
+    width: 2em;
+    margin-bottom: 15px;
+    right: 0px;
+    position: fixed;
+    top: 200px;
+ }
+
 #kuhib {
     background-image:url(kepek/Kuhionstagebg.png);
     background-repeat: no-repeat;

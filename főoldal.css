@@ -56,6 +56,10 @@ nav a:hover {
     margin-right: 32px;
 }
 
+ul {
+    padding-left : 0px;
+}
+
 footer ul li {
     display: inline-block;
 }
@@ -150,6 +154,13 @@ a:link {
     border-radius: 15px 50px 30px 5px;
 }
 
+#oldalteteje {
+    float: right;
+    width: 2em;
+    margin-bottom: 5px;
+    right: 0px;
+ }
+
 @media screen and (min-width: 300px) {
     .Labacska1 {
         display: none;
@@ -167,6 +178,7 @@ a:link {
 
     .buszkimg {
         width: 20%;
+        height: 95px;
     }
 
     .buszkimg2 {
@@ -211,6 +223,14 @@ a:link {
         margin-right: 0px;
     }
 
+    #oldalteteje {
+        float: right;
+        width: 2em;
+        margin-bottom: 15px;
+        right: 0px;
+        position: fixed;
+     }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -229,11 +249,12 @@ a:link {
 
     .buszkimg {
         width: 250px;
+        height: 145px;;
     }
 
     .buszkimg2 {
         width: 250px;
-        height: 145px;;
+        height: 145px;
     }
 
     .buszkszoveg {
@@ -271,4 +292,13 @@ a:link {
     nav ul li {
         margin-right: 10px;
     }
+
+    #oldalteteje {
+        float: right;
+        width: 2em;
+        margin-bottom: 15px;
+        right: 0px;
+        position: fixed;
+        top: 200px;
+     }
 }
