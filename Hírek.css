@@ -27,12 +27,13 @@ h2 {
     padding-left: 10px;
     font-size: 30px;
      color:black;
-background-color: beige;
-display: block;
-margin:30px auto;
-width: fit-content;
+    background-color: beige;
+    display: block;
+    margin:30px auto;
+    width: fit-content;
 
 }
+
 .extra {    
     background-color:beige;
     color: black;
@@ -48,13 +49,16 @@ width: fit-content;
     
     
 }
+
 p:hover .extra {
     display: block; 
     width: 50%;
 }
+
 .hirek p {
     height: 100%;
 }
+
 .alcimek{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
@@ -72,6 +76,7 @@ p:hover .extra {
    
 
 }
+
 .alcimek:hover {
     color: gray;
 }
@@ -90,12 +95,14 @@ p:hover .extra {
     opacity: 100%;
     transition: 0.3s;
 }
+
 .footer1{
     display: block;
     position: relative;
     padding: 5px;
     text-align: right;
 }
+
 .footer2 {
    
     background-color: beige;
@@ -106,6 +113,7 @@ p:hover .extra {
     bottom: 0;
     right: 0;
 }
+
 .footer2 a{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;

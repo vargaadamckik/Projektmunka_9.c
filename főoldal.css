@@ -68,7 +68,7 @@ footer ul li {
     border-bottom: 4px black solid;
 }
 
-#official {
+.official {
     opacity: 80%;
     margin-left: 20px;
     margin-right: 20px;
@@ -161,6 +161,35 @@ a:link {
     right: 0px;
  }
 
+ #Video {
+    margin-top: 8px;
+    background-color: bisque;
+    opacity: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 4px black solid ;
+    border-right: 4px black solid;
+    border-top: 4px black solid ;
+    border-bottom: 4px black solid;
+ }
+
+ #Videoo {
+    align-items: center;
+ }
+
+ #videoszoveg {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 6px solid black;
+ }
+
+ iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
 @media screen and (min-width: 300px) {
     .Labacska1 {
         display: none;
@@ -230,6 +259,20 @@ a:link {
         right: 0px;
         position: fixed;
      }
+
+     iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+        border-radius: 5px;
+      }
+
+      #Csere {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+      }
 
 }
 
@@ -301,4 +344,17 @@ a:link {
         position: fixed;
         top: 200px;
      }
+
+     iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+      }
+
+      #Csere {
+        display: none;
+        width: 1px;
+        height: 1px;
+      }
 }
