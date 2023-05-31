@@ -33,13 +33,22 @@ h1 {
     padding-top: 20px;
       text-align:center;
       font-size: 25px;
-      font-family: Arial, Helvetica, sans-serif;       
+      font-family: Arial, Helvetica, sans-serif;   
+
 }
-
-
-
+.oszlop img:hover,
+.oszlop2 img:hover{
+    filter: grayscale(70%);
+}
+.megjelenes p{
+    opacity: 0;
+}
+.megjelenes:hover p{
+ opacity: 1;
+}
 .p {
     padding-top: 10px;
+    
 }
 
 #homebutton {
@@ -58,4 +67,9 @@ h1 {
 }
 img {
     border: 12px solid wheat;
+}
+@media screen and (max-width:450px) {
+     img{
+        max-width: 410px;
+     }
 }
