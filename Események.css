@@ -37,6 +37,8 @@ header {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
+    background-color: brown;
+    border: black solid 2px;
 }
 
 #Navbares {
@@ -91,11 +93,6 @@ h5 {
     font-weight: 666;
     text-align: center;
     font-size: larger;
-}
-
-header {
-    background-color: brown;
-    border: black solid 2px;
 }
 
 @media screen and (max-width:1000px) {
