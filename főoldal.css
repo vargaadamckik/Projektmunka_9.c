@@ -13,6 +13,8 @@ nav {
     height: 80px;
     margin: auto;
     text-align: center;
+    position: sticky;
+    top:0,2
 }
 
 nav ul {
@@ -190,7 +192,7 @@ a:link {
     border-radius: 5px;
   }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 280px) {
     .Labacska1 {
         display: none;
         padding-left: 0px;
@@ -272,6 +274,7 @@ a:link {
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;
+        width: 300px;
       }
 
 }
