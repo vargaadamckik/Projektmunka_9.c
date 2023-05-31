@@ -11,6 +11,8 @@ header {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
+    background-color: brown;
+    border: black solid 2px;
 }
 
 #homebutton {

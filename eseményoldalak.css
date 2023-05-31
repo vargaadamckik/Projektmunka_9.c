@@ -47,6 +47,8 @@ body {
 header {
     text-align: center;
     font-weight: bold;
+    background-color: brown;
+    border: black solid 2px;
 }
 
 #homebutton {
